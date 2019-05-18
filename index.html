@@ -1,6 +1,8 @@
-<h1 class="h1-class">This is a title</h1>
-<style>
-    .h1-class {
-        color: red;
+<h1 id="title">This is a title</h1>
+<button onclick="changeTitle()">Change title</button>
+<script>
+    function changfeTitle() {
+        var title_element = document.getElementById("title")
+        title_element.innerText = 'NEW TITLE!'
     }
-</style>
+</script>
